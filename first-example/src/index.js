@@ -1,14 +1,17 @@
 import { interval } from 'rxjs';
 import { filter, map, take, scan } from 'rxjs/operators';
+// import './streamExample';
+// import './subjects';
+import './operators';
 
 const people = [
-  {name: 'Vladilen', age: 25},
-  {name: 'Elena', age: 17},
+  {name: 'Alex', age: 25},
+  {name: 'Cris', age: 17},
   {name: 'Ivan', age: 18},
   {name: 'Igor', age: 14},
   {name: 'Lisa', age: 32},
-  {name: 'Irina', age: 23},
-  {name: 'Oleg', age: 20}
+  {name: 'Artem', age: 23},
+  {name: 'Bohdan', age: 20}
 ]
 
 const btn = document.querySelector('#btn');
